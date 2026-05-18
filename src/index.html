@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MIYUU DEVLOG</title>
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;800&display=swap" rel="stylesheet">
+
+  <link href="./output.css" rel="stylesheet">
+
+</head>
+
+<body class="relative text-gray-700  overflow-x-hidden">
+
+  <!-- Overlay -->
+  <div class="fixed inset-0 -z-10 bg-pink-100/60 backdrop-blur-[2px]"></div>
+
+  <!-- NAVBAR -->
+  <nav class="top-0 bg-pink-200 shadow-md z-50 relative overflow-visible">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold group">
+        <span id="flower-icon" class="inline-block transition duration-700 ease-out 
+             group-hover:rotate-360 
+             group-hover:scale-105">🌸</span> MIYUU DEVLOG</h1>
+      <div class="petals-hover space-x-4 font-semibold">
+        <a href="#artes" class="relative hover:text-pink-600">Artes</a>
+        <a href="#japones" class="relative hover:text-pink-600">Japonês</a>
+        <a href="#dev" class="relative hover:text-pink-600">Dev</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="text-center py-12">
+    <h2 class="text-3xl font-extrabold mb-2">💩 Bem-vindo ao meu diário🌋</h2>
+    <p class="text-gray-600 font-semibold">Arte • Japonês • Desenvolvimento</p>
+    <p>🟥 🟧 🟨 🟩 🟦 🟪 🟫</p>
+
+  </section>
+
+  <!-- ARTES -->
+  <section id="artes" class="max-w-6xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-bold mb-6">🎨 Minhas Artes</h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      
+      <!-- Card -->
+      <div class="bg-white rounded-2xl shadow-md p-4 hover:scale-105 transition">
+        <img src="https://i.imgur.com/8Km9tLL.png" class="rounded-xl mb-3" />
+        <h3 class="font-semibold">Desenho estilo anime 💮</h3>
+        <p class="text-sm">Treinando olhos e expressões kawaii ✨</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-md p-4 hover:scale-105 transition">
+        <img src="https://i.imgur.com/Xd9U7Yq.png" class="rounded-xl mb-3" />
+        <h3 class="font-semibold">Personagem original 🐰</h3>
+        <p class="text-sm">Criando meu próprio universo</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- JAPONES -->
+  <section id="japones" class="bg-pink-100/50 py-10">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold mb-6">🎌 Estudos de Japonês</h2>
+
+      <div class="space-y-4">
+
+        <!-- Etapa -->
+        <div class="bg-white rounded-2xl shadow-md p-4 hover:scale-105 transition">
+          <h3 class="font-semibold">🍙 N5 - Básico</h3>
+          <p>こんにちは (konnichiwa) → Olá</p>
+          <p>ありがとう (arigatou) → Obrigado</p>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-4 hover:scale-105 transition">
+          <h3 class="font-semibold">🍥 N4 - Frases</h3>
+          <p>毎日 勉強します (mainichi benkyou shimasu)</p>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md p-4 hover:scale-105 transition">
+          <h3 class="font-semibold">🍡 N3 - Em progresso</h3>
+          <p>🍜 Adicionando gramática e leitura...</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DEV -->
+  <section id="dev" class="max-w-6xl mx-auto px-4 py-10">
+    <h2 class="text-2xl font-bold mb-6">💻 Conteúdo Dev</h2>
+
+    <div class="grid md:grid-cols-2 gap-6">
+
+      <div class="bg-white rounded-2xl shadow-md p-4 hover:scale-105 transition">
+        <h3 class="font-semibold">⚙️ Angular</h3>
+        <p>Projeto de monitoramento de saúde</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-md p-4 hover:scale-105 transition">
+        <h3 class="font-semibold">🚀 API</h3>
+        <p>Estudando REST e FastAPI</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-md p-4 hover:scale-105 transition">
+        <h3 class="font-semibold">📡 IoT</h3>
+        <p>Integração com Raspberry Pi</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-pink-200/50 font-semibold text-pink-600 text-center py-4 mt-10">
+    <p>🎏 Feito com carinho ©2026 MIYUU DEVLOG </p>
+  </footer>
+
+  <script src="animations.js"></script>
+</body>
+</html>

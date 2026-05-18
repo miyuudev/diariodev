@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: url('/assets/sakura.png');
+    background-position: 80% center;
+    background-attachment: fixed;
+    }
+
+.petal {
+    position: absolute;
+    width: 10px;
+    height: 14px;
+    background: radial-gradient(circle at 30% 30%, #ffc0cb, #ff69b4);
+    border-radius: 60% 60% 60% 60%;
+    transform: rotate(45deg);
+    pointer-events: none;
+
+    box-shadow: 
+        0 0 6px rgba(255,182,193,0.6),
+        0 0 12px rgba(255,105,180,0.4);
+}

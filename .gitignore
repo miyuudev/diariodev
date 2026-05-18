@@ -1,0 +1,19 @@
+# dependências
+node_modules/
+
+# builds do Tailwind
+output.css
+dist/
+build/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ambiente
+.env
+
+# sistema
+.DS_Store
+Thumbs.db
