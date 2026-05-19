@@ -2,7 +2,6 @@
 node_modules/
 
 # builds do Tailwind
-output.css
 dist/
 build/
 
